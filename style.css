@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.bg {
+    position: relative;
+    width: 1440px;
+    height: 2810px;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+
+}
+
+.header {
+    width: 1440px;
+    height: 768px;
+    color: #D8D8D8;
+    position: relative;
+}
+
+.header .img1 {
+    position: absolute;
+    width: 1438px;
+    height: 769px;
+    margin: -1px 0px 1px 0px;
+    left: 1px;
+}
+
+.header .p1 {
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 5.71px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #FFFFFF;
+    position: absolute;
+    height: 60px;
+    top: 380px;
+    left: 435px;
+}
+
+.header .img2 {
+    position: absolute;
+    top: 40px;
+    left: 669px;
+    width: 101.62px;
+    height: 23px;
+}
+
+.header .p2 {
+    position: absolute;
+    width: 128px;
+    height: 15px;
+    top: 682px;
+    left: 661.5px;
+
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 3.7px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.header .p3 {
+    position: absolute;
+    width: 386px;
+    height: 22px;
+    top: 439px;
+    left: 527.5px;
+
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav {
+    width: 1442px;
+    height: 65px;
+    margin-left: -1px;
+    color: #D8D8D8;
+    position: absolute;
+    top: 768px;
+    border: 0px;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6
+}
+
+.nav .img3 {
+    position: absolute;
+    width: 79.5px;
+    height: 18;
+    top: 24px;
+    left: 251px;
+}
+
+.nav a {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1.09px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #48555B;
+    text-decoration: none;
+
+    position: absolute;
+    top: 25px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #00A4E5;
+}
+
+.nav .a1 {
+    width: 40px;
+    height: 16px;
+    left: 781.5px;
+}
+
+.nav .a2 {
+    width: 47px;
+    height: 16px;
+    left: 869.5px;
+    color: #00A4E5;
+}
+
+.nav .a3 {
+    width: 61px;
+    height: 16px;
+    left: 959px;
+}
+
+.nav .a4 {
+    width: 40px;
+    height: 16px;
+    left: 1059px;
+}
+
+.nav .a5 {
+    width: 63px;
+    height: 16px;
+    left: 1129px;
+}
+
+.about {
+    position: absolute;
+    width: 941px;
+    height: 344px;
+    top: 891px;
+    left: 249px;
+    
+}
+
+.about .p4 {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    top: -1px;
+    left: 411px;
+
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2.31px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #48555B;
+}
+
+.about .hr1 {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: 34px;
+    left: 447px;
+    border: 0px;
+    border-top: 4px solid #00A4E5;
+    
+}
+
+.about .p5{
+    position: absolute;
+    width: 405px;
+    height: 81;
+    top: 116px;
+    color:#48555B;
+    
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.19px;
+    vertical-align: bottom;
+}
+
+.colorkonstruct {
+    color: #00A4E5;
+}
+
+.about .p6 {
+    position: absolute;
+    width: 405px;
+    height: 115;
+    top: 227px;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    vertical-align: middle;
+    color: #48555B;
+}
+
+.about img {
+    position: absolute;
+    width: 140px;
+    height: 224px;
+    top: 120px;
+}
+
+.about .img4 {
+    left: 482px;
+}
+
+.about .img5 {
+    left: 642px;
+}
+
+.about .img6 {
+    left: 801px;
+}
+
+.service {
+    position: absolute;
+    width: 940px;
+    height: 446px;
+    top: 1353px;
+    left: 250px;
+}
+
+.service .p7 {
+    position: absolute;
+    width: 200px;
+    height: 36;
+
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2.31px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 10px;
+    color: #48555B;
+}
+
+.service .hr2 {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: 34px;
+    left: 0px;
+    border: 0px;
+    border-top: 4px solid #00A4E5;
+}
+
+.service .p8 {
+    position: absolute;
+    width: 405px;
+    height: 38;
+    left: 353px;
+
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    vertical-align: middle;
+    color: #48555B;
+}
+
+.service .btn {
+    position: absolute;
+    width: 150px;
+    height: 40;
+    left: 790px;
+
+    border: none;
+    background: none;
+
+    padding: 11.5px 20px 11.5px 20px;
+    border: 1px solid #00A4E5;
+    background: #00A4E5;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.service .box {
+    position: absolute;
+    width: 295px;
+    height: 330px;
+    top: 116px;
+    border: 1px solid #E6E6E6;
+
+}
+
+.service .img7 {
+    position: absolute;
+    width: 65px;
+    height: 75px;
+    top: 38px;
+    left: 23px;
+}
+
+.service .p9 {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    top: 138px;
+    left: 23px;
+
+    font-family: "Open Sans";
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.43px;
+    vertical-align: middle;
+    color: #48555B;
+    font-weight: bold;
+}
+
+.service .p10 {
+    position: absolute;
+    width: 250px;
+    height: 92px;
+    top: 199px;
+    left: 23px;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    vertical-align: middle;
+    color: #48555B;
+}
+
+.service .box1 {
+    left: 323px;
+}
+    
+.service .box2 {
+    left: 645px;
+}
+
+.get-in-touch {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    top: 1914px;
+}
+
+.get-in-touch .img8 {
+    position: absolute;
+    width: 1440px;
+    height: 498px;
+}
+
+.get-in-touch .p11 {
+    position: absolute;
+    width: 350px;
+    height: 72px;
+    top: 120px;
+    left: 545px;
+
+    font-family: "Open Sans";
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #48555B;
+    font-weight: bold;
+}
+
+.get-in-touch .btn1 {
+    position:  absolute;
+    width: 150px;
+    height: 40px;
+    top: 210px;
+    left: 645px;
+
+
+    border: none;
+    background: none;
+    background: #00A4E5;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.newsletter {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    top: 2411px;
+    background: #171819;
+}
+
+.content {
+    position: absolute;
+    width: 685px;
+    height: 40px;
+    top: 30px;
+    left: 378px;
+}
+
+.content .p12 {
+    position: absolute;
+    width: 218px;
+    height: 30px;
+    top: 5px;
+
+    font-family: "Open Sans";
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: 600;
+}
+
+.content .email {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 286px;
+
+    border: none;
+
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.07px;
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+.content .btn2 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 535px;
+
+    border: none;
+    background: none;
+
+    border: none;
+    background: none;
+    background: #00A4E5;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 299px;
+    top: 2511px;
+
+    background: #171819;
+}
+
+.footer .company {
+    position: absolute;
+    width: 250px;
+    height: 148px;
+    top: 42px;
+    left: 249px;
+}
+
+.company .img9 {
+    position: absolute;
+    width: 101px;
+    height: 23px;
+    top: 34px;
+}
+
+.company .p13 {
+    position: absolute;
+    width: 59px;
+    height: 15px;
+
+
+    font-family: "Open Sans";
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    text-align: left;
+    vertical-align: bottom;
+    opacity: 0.8;
+}
+
+.company .p14 {
+    position: absolute;
+    width: 250px;
+    height: 76px;
+    top: 72px;
+
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.links {
+    position: absolute;
+    width: 262px;
+    height: 150px;
+    top: 42px;
+    left: 570px;
+}
+
+.links .p15 {
+    position: absolute;
+    width: 59px;
+    height: 15px;
+
+
+    font-family: "Open Sans";
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    text-align: left;
+    vertical-align: bottom;
+    opacity: 0.7;
+}
+
+.links .b {
+    height: 20px;
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 600px;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.links .b:hover {
+    text-decoration: underline;
+    color: #00A4E5;
+}
+
+.links .a6 {
+    top: 30px;
+}
+
+.links .a7 {
+    top: 55px;
+}
+
+.links .a8 {
+    top: 80px;
+}
+
+.links .a9 {
+    top: 105px;
+}
+
+.links .a10 {
+    top: 130px;
+}
+
+.links .a11 {
+    left: 100px;
+    top: 30px;
+}
+
+.links .a12 {
+    left: 100px;
+    top: 55px;
+}
+
+.links .a13 {
+    left: 100px;
+    top: 80px;
+}
+
+.links .a14 {
+    left: 190px;
+    top: 30px;
+}
+
+.links .a15 {
+    left: 190px;
+    top: 55px;
+}
+
+.links .a16 {
+    left: 190px;
+    top: 80px;
+}
+
+.contact-us {
+    position: absolute;
+    width: 141px;
+    height: 158px;
+    top: 42px;
+    left: 890px;
+}
+
+.contact-us .p16 {
+    position: absolute;
+    width: 85px;
+    height: 15px;
+
+
+    font-family: "Open Sans";
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    text-align: left;
+    vertical-align: bottom;
+    opacity: 0.7;
+}
+
+.contact-us .p17 {
+    position: absolute;
+    width: 141px;
+    height: 76px;
+    top: 30px;
+
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.85px;
+    vertical-align: middle;
+
+}
+
+.socials {
+    position: absolute;
+    width: 87px;
+    height: 13px;
+    top: 72px;
+    left: 1077px;
+
+}
+
+.socials .img10 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0.48px;
+    left: 0.48px;
+    filter: brightness(0) invert(1);
+}
+
+.socials .img12 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0.76px;
+    left: 74.18px;
+    filter: brightness(0) invert(1);
+
+}
+
+.socials .img11 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0.76px;
+    left: 37.47px;
+    filter: brightness(0) invert(1);
+}
+
+.socials a:hover {
+    filter: opacity(0.6);
+}
+
+.btn:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.footer .copyright {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    top: 239px;
+}
+
+.copyright .p18 {
+    position: absolute;
+    width: 345px;
+    height: 15px;
+    top: 22px;
+    left: 571px;
+
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    vertical-align: bottom;
+
+}
